@@ -1,7 +1,7 @@
-$(function(){
+$(function () {
 
-    $("button").click(){
-        $("button").animate(arg1, arg2, arg3);
-    }
-       
+    $("#start").click(function (){
+        $("#main").find().css("border-color","green")
+    });
+
 });
